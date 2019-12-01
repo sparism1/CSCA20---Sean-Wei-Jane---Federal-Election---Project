@@ -1,0 +1,65 @@
+CSCA20 Project Report: Fall 2019: WEEK 2 (2nd report)
+
+
+Team Member A
+-------------
+First Name: Sean 
+Last Name: Morgado
+Student Number:1002163311
+UofT E-mail Address: sean.morgado@mail.utoronto.ca
+
+
+Team Member B
+-------------
+First Name: Weisheng
+Last Name: Cao
+Student Number: 1004417650
+UofT E-mail Address: weisheng.cao@mail.utoronto.ca
+
+Team Member C (Optional)
+-------------
+First Name: Jane
+Last Name: Lui
+Student Number: 1004533196
+UofT E-mail Address: janecl.lui@mail.utoronto.ca
+
+
+Project Plan
+--------
+Project Title: Federal Election - Vote and Government Formation
+
+
+Provide a one paragraph description of your project:
+
+For our project, we are writing a piece of code that simulates a Canadian federal election, first by asking votes of people in different Canadian cities, calculating the winning party of each city, and then forming a government from this 'seat count'. The code is essentially broken up into two parts, the voting within each local election (looped over again until each of the 10 cities has a clear winning party), and then a piece that calculates the winning party at the federal level and the type of government they will form. We have decided to do this in Python due to the ability to loop over each local election by playing between sets and lists, which also allows us to store less data than we would in Scratch. 
+ 
+
+
+What will you have done before you arrive at your tutorial next week?
+Seeing as this week we will need to present our code for the TAs, we will have completed both parts of the code, put them together and attempted to solve any bugs. We are also planning ot meet once as a team before our tutorial (which is Thursday) to make sure that we are all on the same page of how each part of the code functions.
+
+What will you have done before you leave your tutorial next week?
+Hopefully we will have presented our code to the TAs, and have made a plan as to how we will shoot our video. If there is time and the noise level is not too bad, perhaps we can even film it in the lab (or soon after)
+
+What is your backup plan if things don't work out as planned?
+We have already figured out most of the code and written it, and so we could present it in a basic form as it currently stands.  Though it won't have all the capabilities we may want (like, in the situation of a tie, the code telling us which parties had the most and equal number of votes), we will go ahead and present it.
+
+
+Weekly Reports
+--------------
+
+Week 2: 
+This week we were meeting for the first time as an entire group, and therefore we spent the first half of the lab discussing the details of the more difficult parts of the code. In particular, we discussed the idea of either having an 'administrator' end each local election whenever they wanted, or working with a time function, but decided that the administrator function would have less kinks, as there would be possible ending of the election unless it was the right time to do so. We also split the work up into different parts, one person creating some of the necessary data(like a fake list of FSA codes to assign to each city), one person working on the federal government calculation portion, and antoher person working on the code to simulate the local elections and calculate their results.
+
+
+
+
+References
+----------
+At this point in the project we have not used anyone else's code. In order to solve some of the issues we may have with 'tie elections', both at the local and federal level, we may have to resort to this, but we'll see. 
+
+
+Repo & Video
+------------
+
+

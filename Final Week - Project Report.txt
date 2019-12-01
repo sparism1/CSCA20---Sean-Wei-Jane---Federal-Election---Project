@@ -1,0 +1,78 @@
+CSCA20 Project Report: Fall 2019
+
+You will submit a copy of this report on Quercus each week between now and the end of the project. Each team member will need to submit a copy, so that we can go back and see what you've done over time. Your project may (and probably will) change as you progress, and that's okay, but we want to be able to track that progression.
+
+Team Member A
+-------------
+First Name: Sean 
+Last Name: Morgado
+Student Number:1002163311
+UofT E-mail Address: sean.morgado@utoronto.ca
+
+Team Member B
+-------------
+First Name: Weisheng
+Last Name: Cao
+Student Number: 1004417650
+UofT E-mail Address: weisheng.cao@mail.utoronto.ca
+
+Team Member C (Optional)
+-------------
+First Name: Jane
+Last Name: Lui
+Student Number: 1004533196
+UofT E-mail Address: janecl.lui@mail.utoronto.ca
+
+
+
+Project Plan
+--------
+
+Project Title: Federal Election - Vote and Government Formation
+
+
+Provide a one paragraph description of your project:
+
+Our project is a piece of code that performs local elections in federal ridings across Canada and then calculates the winner of the federal election based on these results. It works one local election at a time, meaning, only the voters residing in each of the local ridings are allowed to vote in their cities, and once their vote is finished (at the request of an administrator), the code calculates the winner of that local riding. It then moves on to the next until all the local ridings have chosen their winning party, and declares which party wins the federal election. It also declares whether that part will form a majority government or a minority government.
+
+
+What will you have done before you arrive at your tutorial next week? 
+
+We are writing this project report after our last tutorial, so we already completed the presentation of the code and the final touches on it. 
+
+What will you have done before you leave your tutorial next week?
+
+See above.
+
+What is your backup plan if things don’t work out as planned?
+
+See above.
+
+
+Weekly Reports
+--------------
+Week 1: 
+
+This week in tutorial we discussed the project, looked at how one of the members began to work on it in Scratch, and talked about how it would look in Python. In our discussion, we walked through our ideas for this code, and how we could practically go about setting it up in Python. We also talked about having another member in our group, someone we had worked with in previous tutorials who wasn't present this day (Jane).
+
+Week 2: 
+This week we were meeting for the first time as an entire group, and therefore we spent the first half of the lab discussing the details of the more difficult parts of the code. In particular, we discussed the idea of either having an 'administrator' end each local election whenever they wanted, or working with a time function, but decided that the administrator function would have less kinks, as there would be possible ending of the election unless it was the right time to do so. We also split the work up into different parts, one person creating some of the necessary data(like a fake list of FSA codes to assign to each city), one person working on the federal government calculation portion, and antoher person working on the code to simulate the local elections and calculate their results.
+
+
+Final Week:
+Coming into this week, we were testing out different forms of code that could work for the federal election module. However, after finding some information online about how to do list comprehension (see references) we decided to use a list comprehension method at the local level and at the federal level (in the situation of ties for the most votes). All in all, though, we are glad that we were able to figure the bugs in the code out, and not revert to the back-up plan of just doing one local election. Additionally, we feel we have a better grounding of how Python operates since we decided to use it instead of Scratch (though, in theory, both could have worked, but it would have been much more arduous to loop over the local elections in Scratch).
+
+
+References
+----------
+We have referred to this in our README document on the Github repository for our code, but we used one line of code that we found online when researching list comprehension. This line of code became the basis for lines 65 and 94 of our final Python code. This line comes from this website link, and specifically the part labeled "Method #2":
+https://www.geeksforgeeks.org/python-ways-to-find-indices-of-value-in-list/
+
+
+Repo & Video
+------------
+Here is a link to our code repository on Github:
+https://github.com/sparism1/CSCA20---Sean-Wei-Jane---Federal-Election---Project
+The video is also included in this repository.
+
+
