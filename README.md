@@ -10,7 +10,7 @@ calgary = {'T1X', 'T1Y', 'T2A', 'T2N'},
 winnipeg = {'R0G', 'R2C', 'R2M', 'R3P'},
 oshawa = {'L1B', 'L1E', 'L1G', 'L1H'},
 victoria = {'V8P', 'V8N', 'V8R', 'V8T'},
-yellowknife = {'P0B', 'P5K', 'P3I', 'P8M'},
+yellowknife = {'P0B', 'P5K', 'P3I', 'P8M'}.
  Therefore, if you are going through the Toronto election and the code asks "What are the first three letters of your postal code?" only M5T, M5S, M5L and M5K will allow you to move to the next step of the process.
 3. If you would like to do a shortened version of the code, you can edit the master_region_list in line 14 and delete however many local elections you wish. The local election module of the code loops through the sets in this list, therefore if you only leave three items (which are sets) in this list then it will only loop three three local elections. However, if you do this, then do not change the order of the sets, as this will mess up later parts of the code (so, for example, if you only want to have three local elections, delete from "brampton" onward without changing the order of toronto, vancouver, montreal). As well, the code functions best if you leave an odd number of local elections (as then the federal government can more easily be called a majority government or a minortiy government).
 4. At the end of each voter casting their ballot it will ask if an administrator would like to finish the local election. You, as the operator of the code, can choose however many local ballots you wish to be cast before ending the election. When you do follow the prompt to end the local election, it will then ask for the pin. The pin for all the local elections is 3311: If you don't put in this pin when it asks you to end the code it will go to the next voter for the same local election.
