@@ -60,7 +60,10 @@ This week we were meeting for the first time as an entire group, and therefore w
 
 
 Final Week:
-Coming into this week, we were testing out different forms of code that could work for the federal election module. However, after finding some information online about how to do list comprehension (see references) we decided to use a list comprehension method at the local level and at the federal level (in the situation of ties for the most votes). All in all, though, we are glad that we were able to figure the bugs in the code out, and not revert to the back-up plan of just doing one local election. Additionally, we feel we have a better grounding of how Python operates since we decided to use it instead of Scratch (though, in theory, both could have worked, but it would have been much more arduous to loop over the local elections in Scratch).
+
+This week we finished our project and presented it to our TAs. We showed the TAs the functionality of the code and explained the code we wrote with its purpose to the project. The TAs seemed satisfied with our project and gave us some feedback on some peculiar ways we wrote the code (for example, writing "true" and "false" for one variable instead of using Booleans). Everyone in the group completed their own role in building the code which allowed us to complete the project on time. 
+We also were very impressed by the people who made games for their project and we thought they were pretty ambitious of doing so. However, we were also proud of the fact that we were able to figure out some of the more dense elements of Python to bring our code together. Overall, this project was enjoyable, as it allowed us to work as a team to complete. It gave us an insight into what developers in the real world do everyday. This project has reached our expectations and we are proud of what we have accomplished during the two weeks. 
+
 
 
 References
