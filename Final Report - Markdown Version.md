@@ -4,22 +4,31 @@
 Team Member A
 -------------
 First Name: Sean 
+
 Last Name: Morgado
+
 Student Number:1002163311
+
 UofT E-mail Address: sean.morgado@utoronto.ca
 
 Team Member B
 -------------
 First Name: Weisheng
+
 Last Name: Cao
+
 Student Number: 1004417650
+
 UofT E-mail Address: weisheng.cao@mail.utoronto.ca
 
 Team Member C 
 -------------
 First Name: Jane
+
 Last Name: Lui
+
 Student Number: 1004533196
+
 UofT E-mail Address: janecl.lui@mail.utoronto.ca
 
 
@@ -75,6 +84,5 @@ Repo & Video
 ------------
 Here is a link to our code repository on Github:
 https://github.com/sparism1/CSCA20---Sean-Wei-Jane---Federal-Election---Project
-(In the .md file this the hyper link does not work for the entire link)
 The video is also included in this repository.
 
